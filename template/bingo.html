@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <title>{{ num }}</title>
+  <meta http-equiv='content-type' content='text/html; charset=utf-8' />
+  <link href='https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap' rel='stylesheet'>
+  <style>
+    @media screen {
+        body {margin: 0.5in; background-color: #ccc;}
+        div.paper {padding: 0.5in}
+    }
+    @media print {
+        body {margin: 0; background-color: #fff;}
+        div.paper {padding: 0}
+    }
+    @font-face {
+        font-family: title;
+        src: url('../resource/VintageParty.ttf');
+    }
+    @font-face {
+        font-family: table;
+        src: url('../resource/IndieFlower.ttf');
+    }
+    div {
+        background-color: #fff;
+        box-sizing: border-box;
+        width: 8.5in;
+        height: 8.5in;
+    }
+    table {
+        font-family: 'table';
+        font-size: 20pt;
+        margin-top: 0.15in;
+        border: 2px solid #000;
+        width: 100%;
+        border-collapse: collapse;
+    }
+    td {
+        box-sizing: border-box;
+        line-height: 20pt;
+        padding: 0 0.5em;
+        height: 1.25in;
+        width: 20%;
+        text-align: center;
+        border: 2px solid #000;
+    }
+    h1 {
+        line-height: 60pt;
+        color: #333;
+        width: 100%;
+        text-align: center;
+        font-size: 60pt;
+        margin: 10pt 0 0 0;
+        display: inline-block;
+        font-weight: 200;
+        font-family: 'title';
+    }
+    span.left {
+        font-size: 35pt;
+    }
+    span.right {
+        font-size: 35pt;
+        display: inline-block;
+        -moz-transform: scale(-1, 1);
+        -webkit-transform: scale(-1, 1);
+        -o-transform: scale(-1, 1);
+        -ms-transform: scale(-1, 1);
+        transform: scale(-1, 1);
+    }
+    span.free {
+        font-size: 30pt;
+        line-height:32pt;
+    }
+  </style>
+</head>
+<body>
+  <div class='paper'>
+    <h1><span class="left">🎈🎉</span> Philthy Bingo <span class="right">🎈🎉</span></h1>
+    <table>
+      <tr>
+        <td>{{ tracks[0] }}</td>
+        <td>{{ tracks[1] }}</td>
+        <td>{{ tracks[2] }}</td>
+        <td>{{ tracks[3] }}</td>
+        <td>{{ tracks[4] }}</td>
+      </tr>
+      <tr>
+        <td>{{ tracks[5] }}</td>
+        <td>{{ tracks[6] }}</td>
+        <td>{{ tracks[7] }}</td>
+        <td>{{ tracks[8] }}</td>
+        <td>{{ tracks[9] }}</td>
+      </tr>
+      <tr>
+        <td>{{ tracks[10] }}</td>
+        <td>{{ tracks[11] }}</td>
+        <td>Thunder Struck</td>
+        <td>{{ tracks[12] }}</td>
+        <td>{{ tracks[13] }}</td>
+      </tr>
+      <tr>
+        <td>{{ tracks[14] }}</td>
+        <td>{{ tracks[15] }}</td>
+        <td>{{ tracks[16] }}</td>
+        <td>{{ tracks[17] }}</td>
+        <td>{{ tracks[18] }}</td>
+      </tr>
+      <tr>
+        <td>{{ tracks[19] }}</td>
+        <td>{{ tracks[20] }}</td>
+        <td>{{ tracks[21] }}</td>
+        <td>{{ tracks[22] }}</td>
+        <td>{{ tracks[23] }}</td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
